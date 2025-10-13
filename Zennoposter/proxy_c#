@@ -1,0 +1,2 @@
+string proxy = project.Variables["proxy"].Value; // protocol://ip:port or protocol://login:pass@ip:port
+instance.SetProxy(proxy,false,false,true); // Setting up a proxy with timezone emulation based on IP
